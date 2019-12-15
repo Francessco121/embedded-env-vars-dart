@@ -34,7 +34,7 @@ part 'environment.env.dart';
 
 // Mark an abstract class as a container for embedded 
 // environment variables
-@EmbeddedEnvironmentVariables()
+@embeddedEnvironmentVariables
 abstract class Environment {
   // Specify environment variables as a String getter with an 
   // optional default value
