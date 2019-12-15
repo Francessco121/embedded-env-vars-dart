@@ -9,16 +9,18 @@ An experimental package for embedding environment variables at build time into a
 # Add a normal dependency on the annotations package
 dependencies:
   embedded_env_vars:
-    git: https://github.com/Francessco121/embedded-env-vars-dart.git
-    path: embedded_env_vars
-    ref: <insert latest commit ID> # Optional but recommended
+    git: 
+      url: https://github.com/Francessco121/embedded-env-vars-dart.git
+      path: embedded_env_vars
+      ref: <insert latest commit ID> # Optional but recommended
 
 # Add a dev dependency on the generator package
 dev_dependencies:
   embedded_env_vars_generator:
-    git: https://github.com/Francessco121/embedded-env-vars-dart.git
-    path: embedded_env_vars_generator
-    ref: <insert latest commit ID> # Optional but recommended
+    git: 
+      url: https://github.com/Francessco121/embedded-env-vars-dart.git
+      path: embedded_env_vars_generator
+      ref: <insert latest commit ID> # Optional but recommended
 ```
 
 ### Example

@@ -7,6 +7,9 @@ dependencies:
   analyzer: '>=0.32.0 <0.39.0'
   build: '>=0.12.0 <2.0.0'
   code_builder: ^3.2.0
+  embedded_env_vars: any
+  source_gen: ^0.9.0
+
+dependency_overrides:
   embedded_env_vars:
     path: ../embedded_env_vars
-  source_gen: ^0.9.0
