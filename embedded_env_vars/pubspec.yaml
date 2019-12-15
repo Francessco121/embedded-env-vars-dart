@@ -1,0 +1,4 @@
+name: embedded_env_vars
+
+environment:
+  sdk: '>=2.3.0 <3.0.0'
